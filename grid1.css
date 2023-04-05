@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    width:90% ;
+    height: 200px;
+    gap: 10px 10px;
+    margin: 50px;
+  
+    grid-template-areas:'logo logo navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation' 
+    'news news news first first first second second second third third third'
+    'news news news first first first second second second third third third'
+    'news news news first first first second second second third third third'
+    'news news news first first first second second second third third third'
+    'events events events first first first second second second third third third'
+    'events events events first first first second second second third third third'
+    'events events events first first first second second second third third third'
+    'events events events first first first second second second third third third'
+    'contact contact contact first first first second second second third third third'
+    'contact contact contact first first first second second second third third third'
+    'contact contact contact fotter fotter fotter fotter fotter fotter fotter fotterlogo fotterlogo'
+    ;
+ 
+
+}
+.logo{
+grid-area:logo;
+background-color: aqua;
+margin-left: 4px;
+text-align: center;
+
+}
+.navigation{
+    grid-area: navigation;
+    background-color: bisque;
+    text-align: center;
+    
+}
+.news{
+    text-align: center;
+    grid-area: news;
+    background-color: aquamarine;
+}
+.events{
+    text-align: center;
+    grid-area: events;
+    background-color: blue;
+}
+.first{
+    text-align: center;
+    grid-area: first;
+    background-color: blueviolet;
+}
+.second{
+    text-align: center;
+    grid-area: second;
+    background-color: brown;
+    
+}
+.third{
+    text-align: center;
+    grid-area: third;
+    background-color: burlywood;
+    
+}
+.contact{
+    text-align: center;
+    grid-area: contact;
+    background-color: yellowgreen;
+    
+}
+.fotter{
+    text-align: center;
+    background-color: violet;
+    grid-area: fotter;
+}
+.fotterlogo{
+    text-align: center;
+    margin-right: 4px;
+    grid-area: fotterlogo;
+    background-color: rgb(148, 29, 29);
+}
